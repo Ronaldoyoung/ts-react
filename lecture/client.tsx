@@ -1,5 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import GuGuDan from './GuGuDan';
+import { hot } from 'react-hot-loader/root';
 
-ReactDOM.render(<GuGuDan/>, document.querySelector('#root'));
+import NumberBaseball from './NumberBaseball';
+
+const Hot = hot(NumberBaseball);
+
+ReactDOM.render(<NumberBaseball/>, document.querySelector('#root'));

@@ -20,7 +20,7 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.LoaderOptionsPlugin({ debug: true }), //Loader 들에 debug 옵션을 추가해주는 플러그인
+    // new webpack.LoaderOptionsPlugin({ debug: true }), //Loader 들에 debug 옵션을 추가해주는 플러그인
   ],
 
   output: {
