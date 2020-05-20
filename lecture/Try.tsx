@@ -7,7 +7,7 @@ const Try:FunctionComponent<{ tryInfo: TryInfo }> = ({ tryInfo }) => {
 
   return (
     <>
-      여기는 Try tsx 입니다.
+      여기는 Try tsx 입니다. Test
     </>
   )
 }
